@@ -5,6 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Quick summary
+To understand GAN workflow to create MNIST digit images
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
@@ -27,3 +28,11 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+### Important Commands ###
+1. [Remove files except](https://www.tecmint.com/delete-all-files-in-directory-except-one-few-file-extensions/): 
+```bash
+shopt -s extglob
+rm -v !(*.zip|*.odt)
+shopt -u extglob
+```
