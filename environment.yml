@@ -7,7 +7,7 @@ dependencies:
   - isort=5.8.0
   - jupyterlab=3.0.12
   - matplotlib=3.3.4
-  - nodejs
+  - nodejs=15.14.0
   - numpy=1.19.2
   - pandas=1.2.3
   - pip=21.0.1
@@ -19,10 +19,10 @@ dependencies:
   - typing=3.7.4.3
   - tqdm=4.60.0
   - pip:
-      - ipywidgets
+      - ipywidgets==7.6.3
       - jupyter-server-proxy==3.0.2
       - lxml==4.6.3
       - pickle-mixin==1.0.2  
       - torch==1.8.1
       - torchvision==0.9.1
-      - tensorboard
+      # - tensorboard==2.5.0
